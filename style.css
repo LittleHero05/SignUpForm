@@ -34,8 +34,12 @@ body {
 }
 
 .text {
-    padding-left: 20px;
+    padding: 0 60px 10px 20px;
     margin-bottom: 10px;
+}
+
+.text h4 {
+    padding-top: 10px;
 }
 
 img {
@@ -51,7 +55,7 @@ img {
 
 form {
     background-color: white;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 15px 20px;
     border-radius: 10px;
     width: 100%;
 }
@@ -79,6 +83,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: .7rem;
 }
 
 button:hover {
